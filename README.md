@@ -1,6 +1,6 @@
-# AI zettlekasten (Lite)
+# AI Zettelkasten (Lite)
 
-Lightweight AI-powered Zettlekasten-inspired knowledge management system. Get started in minutes with Claude Code and Pinecone DB.
+Lightweight AI-powered Zettelkasten-inspired knowledge management system. Get started in minutes with Claude Code and Pinecone DB.
 
 # Getting started
 
