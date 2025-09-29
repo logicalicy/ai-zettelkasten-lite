@@ -8,7 +8,7 @@ Lightweight AI-powered Zettelkasten-inspired knowledge management system. Get st
 2. Add Pinecone MCP to Claude Code
 3. Create `zettelkasten-db` index in [Pinecone DB](https://app.pinecone.io/)
 4. Add a quote to your Zettelkasten. Type into Claude Code:
-  > Please read /path/to/zettelkasten_manager_prompt.md and give me some Jim Rohn quotes in a numbered list. Then, I will tell you which ones to include in pinecone
+  > Please read /path/to/ai-zettelkasten-prompt.md and give me some Jim Rohn quotes in a numbered list. Then, I will tell you which ones to include in pinecone
 5. Choose a few quotes to add to your knowledge base
 6. Ask it to retrieve a quote. Type into Claude Code:
   > Ok give me a Jim Rohn quote about discipline
