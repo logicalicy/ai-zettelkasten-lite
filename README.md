@@ -20,3 +20,23 @@ Lightweight AI-powered Zettelkasten-inspired knowledge management system. Get st
   > Add task to make a todo app prototype, set its status to "to do"
 10. Ask it to retrieve tasks. Type into Claude Code
   > Show my kanban board filtered by todo tasks
+
+# Alias commands
+
+Need to quickly add something to your Zettelkasten or query it quickly? 
+
+Add `.zettelkastenrc` to your `.bashrc`, `.zshrc`, etc. and run:
+
+```
+# Quick capture
+zadd "Spaced repetition works best with expanding intervals"
+
+# Search by meaning, not keywords
+zsearch "techniques for better memory retention"
+
+# Bookmark a URL instantly
+zbookmark https://example.com/article
+
+# View tasks
+zboard "in-progress"
+```
