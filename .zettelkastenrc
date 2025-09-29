@@ -1,0 +1,23 @@
+# Add to your .zshrc or .bashrc
+
+export ZETTELKASTEN_PROMPT_PATH=/path/to/ai-zettelkasten-prompt.md
+
+zadd() {
+    local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Add this to my zettel database: $*"
+    claude "$prompt"
+} 
+
+zsearch() {
+    local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Search my zettel database for: $*"
+    claude "$prompt"
+}
+
+zboard() {
+    local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Show my kanban board filtered by: $*"
+    claude "$prompt"
+} 
+
+zbookmark() {
+    local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Bookmark this URL: $*"
+    claude "$prompt"
+} 
