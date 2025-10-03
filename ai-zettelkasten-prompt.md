@@ -616,7 +616,7 @@ Options:
 **Kanban Board:**
 
 ```
-Classic view by status:
+Classic view by status (shown as ascii board):
 - Backlog: {count} tasks
 - Todo: {count} tasks
 - In Progress: {count} tasks
