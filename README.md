@@ -2,6 +2,22 @@
 
 Lightweight AI-powered Zettelkasten-inspired knowledge management system. Get started in minutes with Claude Code and Pinecone DB.
 
+# Examples
+
+Add knowledge and create topics for your knowledge:
+
+<img width="1213" height="379" alt="image" src="https://github.com/user-attachments/assets/7f613240-af81-47d9-999f-962ec1af471d" />
+
+Ask what you've learned this week:
+
+<img width="1306" height="489" alt="image" src="https://github.com/user-attachments/assets/53f848a7-dde4-4134-9301-6ad9008e529f" />
+
+Ask what's in my Kanban task board?
+
+<img width="557" height="442" alt="image" src="https://github.com/user-attachments/assets/4a0a885e-374e-4669-9aa9-f1fba1853d28" />
+
+...and many more use cases for knowledge and task management.
+
 # Getting started
 
 1. Save [`ai-zettelkasten-prompt.md`](./ai-zettelkasten-prompt.md) to your local machine
