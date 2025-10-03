@@ -2,6 +2,11 @@
 
 export ZETTELKASTEN_PROMPT_PATH=/path/to/ai-zettelkasten-prompt.md
 
+zettel() { 
+  local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Please read the file. Then: $*"
+  claude "$prompt"
+} 
+
 zadd() {
     local prompt="$(cat "$ZETTELKASTEN_PROMPT_PATH")"$'\n\n'"Add this to my zettel database: $*"
     claude "$prompt"
