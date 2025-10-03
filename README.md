@@ -29,7 +29,7 @@ Ask what's in my Kanban task board?
 6. Ask it to retrieve a quote. Type into Claude Code:
   > Ok give me a Jim Rohn quote about discipline
 7. Add a link/bookmark to your Zettelkasten. Type into Claude Code:
-  > Please add this to my Zettelkasten https://www.bbc.co.uk/news/articles/some-article
+  > Please add this to my Zettelkasten https://www.bbc.co.uk/news/articles/c1jll2k0gewo
 8. Ask it to retrieve a bookmark. Type into Claude Code:
   > Can you show me my bookmarks
 9. Add a task. Type into Claude Code:
@@ -55,4 +55,7 @@ zbookmark https://example.com/article
 
 # View tasks
 zboard "in-progress"
+
+# Freeform
+zettel "what have I learned in the past week? give me a succinct list"
 ```
