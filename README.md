@@ -44,7 +44,7 @@ Need to quickly add something to your Zettelkasten or query it quickly?
 Add `.zettelkastenrc` to your `.bashrc`, `.zshrc`, etc. and run:
 
 ```
-# Quick capture
+# Quick add
 zadd "Spaced repetition works best with expanding intervals"
 
 # Search by meaning, not keywords
